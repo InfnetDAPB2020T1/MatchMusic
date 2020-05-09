@@ -12,7 +12,7 @@ A aplicação sugere novas músicas ao usuário baseado nos seus gêneros prefer
 # Cenário
 Na aplicação o usuário deve se cadastrar criando um perfil e através do perfil criado o usuário poderá interagir dando match nos perfis de outros usuários. Se o match for dado, será possivel interagir com a pessoa. Além disso, o usuário receberá semanalmente novas indicações de músicas de acordo com seu gênero musical favorito, podendo ser compartilhada com sua lista de seguidores.
 
-#PO
+# PO
 Thamyres Rodrigues
 
 # História de usuário
