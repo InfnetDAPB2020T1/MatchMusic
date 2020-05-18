@@ -227,6 +227,7 @@
         android:layout_height="54dp"
         android:layout_marginBottom="16dp"
         android:contentDescription="Logo do aplicativo"
+        android:rotation="10"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -301,21 +302,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="MPB"
-                    android:textColor="#000000" />
+                    android:textColor="#FFFFFF" />
 
                 <CheckBox
                     android:id="@+id/Eletronica"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Eletrônica"
-                    android:textColor="#000000" />
+                    android:textColor="#FFFFFF" />
 
                 <CheckBox
                     android:id="@+id/Pagode"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Pagode"
-                    android:textColor="#000000" />
+                    android:textColor="#FFFFFF" />
 
             </TableRow>
 
@@ -329,21 +330,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Rock"
-                    android:textColor="#000000" />
+                    android:textColor="#FFFFFF" />
 
                 <CheckBox
                     android:id="@+id/Pop"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Pop"
-                    android:textColor="#000000" />
+                    android:textColor="#FFFFFF" />
 
                 <CheckBox
                     android:id="@+id/Sertanejo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Sertanejo"
-                    android:textColor="#000000" />
+                    android:textColor="#FFFFFF" />
 
             </TableRow>
 
@@ -359,53 +360,24 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Funk"
-                    android:textColor="#000000" />
+                    android:textColor="#FFFFFF" />
 
                 <CheckBox
                     android:id="@+id/Forro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Forró"
-                    android:textColor="#000000" />
+                    android:textColor="#FFFFFF" />
 
                 <CheckBox
                     android:id="@+id/Samba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Samba"
-                    android:textColor="#000000" />
+                    android:textColor="#FFFFFF" />
 
             </TableRow>
 
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="5dp"
-                android:padding="3dp">
-
-                <CheckBox
-                    android:id="@+id/Gospel"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Gospel"
-                    android:textColor="#000000" />
-
-                <CheckBox
-                    android:id="@+id/Classico"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Clássico"
-                    android:textColor="#000000" />
-
-                <CheckBox
-                    android:id="@+id/Outro"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Outro"
-                    android:textColor="#000000" />
-
-            </TableRow>
 
         </TableLayout>
 
@@ -414,6 +386,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto"
             android:text="Entrar"
             app:layout_constraintEnd_toEndOf="@+id/tableLayout"
             app:layout_constraintStart_toStartOf="@+id/tableLayout"

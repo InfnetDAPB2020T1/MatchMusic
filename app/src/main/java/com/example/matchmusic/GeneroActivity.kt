@@ -29,8 +29,8 @@ class GeneroActivity : AppCompatActivity() {
             findViewById(R.id.Rock), findViewById(R.id.Funk),
             findViewById(R.id.Forro), findViewById(R.id.MPB),
             findViewById(R.id.Pop), findViewById(R.id.Eletronica),
-            findViewById(R.id.Sertanejo), findViewById(R.id.Samba), findViewById(R.id.Pagode),
-            findViewById(R.id.Gospel), findViewById(R.id.Classico), findViewById(R.id.Outro)
+            findViewById(R.id.Sertanejo), findViewById(R.id.Samba), findViewById(R.id.Pagode)
+            //findViewById(R.id.Gospel), findViewById(R.id.Classico), findViewById(R.id.Outro)
         )
 
         usuario = intent.getSerializableExtra("usuario") as Usuario

@@ -31,6 +31,10 @@ class CadastroFragment : Fragment() {
         enviarButton.setOnClickListener {
             SetupListTask().execute()
         }
+
+        cancelarCadastroButton.setOnClickListener{
+            findNavController().navigate(R.id.loginFragment)
+        }
     }
 
     @SuppressLint("StaticFieldLeak")
