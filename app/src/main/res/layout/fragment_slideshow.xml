@@ -15,7 +15,7 @@
         android:duplicateParentState="false"
         android:elevation="1dp"
         android:fontFamily="sans-serif-medium"
-        android:padding="8dp"
+        android:padding="9dp"
         android:text="Configurações"
         android:textColor="?android:attr/textColorPrimaryInverse"
         android:textSize="18sp"
